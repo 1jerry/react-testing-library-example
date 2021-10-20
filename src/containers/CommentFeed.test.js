@@ -10,7 +10,7 @@ const createProps = (props) => ({
     },
     { author: "Max Powers Jr", text: "Krypton sucks." },
   ],
-  createComments: jest.fn(),
+  createComment: jest.fn(),
   ...props,
 })
 describe("CommentFeed", () => {
